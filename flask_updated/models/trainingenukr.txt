@@ -1,0 +1,66 @@
+Downloading config.json: 100%
+1.21k/1.21k [00:00<00:00, 98.0kB/s]
+Downloading model.safetensors: 100%
+242M/242M [00:01<00:00, 228MB/s]
+Downloading generation_config.json: 100%
+147/147 [00:00<00:00, 12.8kB/s]
+Using 2 GPUs!
+Epoch 1/4
+/opt/conda/lib/python3.10/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+Epoch 1, Training: Batch 1/5000
+Epoch 1, Training: Batch 1001/5000
+Epoch 1, Training: Batch 2001/5000
+Epoch 1, Training: Batch 3001/5000
+Epoch 1, Training: Batch 4001/5000
+Epoch 1, Training: Batch 5000/5000
+Training Loss for Epoch 1: 0.10791173885017634
+Validating for Epoch 1
+Epoch 1, Validation: Batch 1/1250
+Epoch 1, Validation: Batch 1001/1250
+Epoch 1, Validation: Batch 1250/1250
+Validation Loss for Epoch 1: 0.09432550088763236
+Epoch 2/4
+Epoch 2, Training: Batch 1/5000
+Epoch 2, Training: Batch 1001/5000
+Epoch 2, Training: Batch 2001/5000
+Epoch 2, Training: Batch 3001/5000
+Epoch 2, Training: Batch 4001/5000
+Epoch 2, Training: Batch 5000/5000
+Training Loss for Epoch 2: 0.08242531975135207
+Validating for Epoch 2
+Epoch 2, Validation: Batch 1/1250
+Epoch 2, Validation: Batch 1001/1250
+Epoch 2, Validation: Batch 1250/1250
+Validation Loss for Epoch 2: 0.07532285265922546
+Model saved for Epoch 2 at /kaggle/working/saved_model_ukren_epoch2.pt
+Epoch 3/4
+Epoch 3, Training: Batch 1/5000
+Epoch 3, Training: Batch 1001/5000
+Epoch 3, Training: Batch 2001/5000
+Epoch 3, Training: Batch 3001/5000
+Epoch 3, Training: Batch 4001/5000
+Epoch 3, Training: Batch 5000/5000
+Training Loss for Epoch 3: 0.07203482588678599
+Validating for Epoch 3
+Epoch 3, Validation: Batch 1/1250
+Epoch 3, Validation: Batch 1001/1250
+Epoch 3, Validation: Batch 1250/1250
+Validation Loss for Epoch 3: 0.06932174268960953
+Epoch 4/4
+Epoch 4, Training: Batch 1/5000
+Epoch 4, Training: Batch 1001/5000
+Epoch 4, Training: Batch 2001/5000
+Epoch 4, Training: Batch 3001/5000
+Epoch 4, Training: Batch 4001/5000
+Epoch 4, Training: Batch 5000/5000
+Training Loss for Epoch 4: 0.06478491905294359
+Validating for Epoch 4
+Epoch 4, Validation: Batch 1/1250
+Epoch 4, Validation: Batch 1001/1250
+Epoch 4, Validation: Batch 1250/1250
+Validation Loss for Epoch 4: 0.057901455017924305
+Model saved for Epoch 4 at /kaggle/working/saved_model_ukren_epoch4.pt
+Model saved to /kaggle/working/saved_model_enukr.pt

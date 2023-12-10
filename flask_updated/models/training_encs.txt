@@ -1,0 +1,168 @@
+Downloading config.json: 100%
+1.21k/1.21k [00:00<00:00, 77.4kB/s]
+Downloading model.safetensors: 100%
+242M/242M [00:01<00:00, 208MB/s]
+Downloading generation_config.json: 100%
+147/147 [00:00<00:00, 10.2kB/s]
+
+Using 2 GPUs!
+Epoch 1/8
+
+/opt/conda/lib/python3.10/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+
+Epoch 1, Training: Batch 1/10000
+Epoch 1, Training: Batch 1001/10000
+Epoch 1, Training: Batch 2001/10000
+Epoch 1, Training: Batch 3001/10000
+Epoch 1, Training: Batch 4001/10000
+Epoch 1, Training: Batch 5001/10000
+Epoch 1, Training: Batch 6001/10000
+Epoch 1, Training: Batch 7001/10000
+Epoch 1, Training: Batch 8001/10000
+Epoch 1, Training: Batch 9001/10000
+Epoch 1, Training: Batch 10000/10000
+Training Loss for Epoch 1: 0.4757246993392706
+Validating for Epoch 1
+Epoch 1, Validation: Batch 1/2500
+Epoch 1, Validation: Batch 1001/2500
+Epoch 1, Validation: Batch 2001/2500
+Epoch 1, Validation: Batch 2500/2500
+Validation Loss for Epoch 1: 0.3226342289030552
+Epoch 2/8
+Epoch 2, Training: Batch 1/10000
+Epoch 2, Training: Batch 1001/10000
+Epoch 2, Training: Batch 2001/10000
+Epoch 2, Training: Batch 3001/10000
+Epoch 2, Training: Batch 4001/10000
+Epoch 2, Training: Batch 5001/10000
+Epoch 2, Training: Batch 6001/10000
+Epoch 2, Training: Batch 7001/10000
+Epoch 2, Training: Batch 8001/10000
+Epoch 2, Training: Batch 9001/10000
+Epoch 2, Training: Batch 10000/10000
+Training Loss for Epoch 2: 0.32397560966052114
+Validating for Epoch 2
+Epoch 2, Validation: Batch 1/2500
+Epoch 2, Validation: Batch 1001/2500
+Epoch 2, Validation: Batch 2001/2500
+Epoch 2, Validation: Batch 2500/2500
+Validation Loss for Epoch 2: 0.25242954745590684
+Epoch 3/8
+Epoch 3, Training: Batch 1/10000
+Epoch 3, Training: Batch 1001/10000
+Epoch 3, Training: Batch 2001/10000
+Epoch 3, Training: Batch 3001/10000
+Epoch 3, Training: Batch 4001/10000
+Epoch 3, Training: Batch 5001/10000
+Epoch 3, Training: Batch 6001/10000
+Epoch 3, Training: Batch 7001/10000
+Epoch 3, Training: Batch 8001/10000
+Epoch 3, Training: Batch 9001/10000
+Epoch 3, Training: Batch 10000/10000
+Training Loss for Epoch 3: 0.27086602260097864
+Validating for Epoch 3
+Epoch 3, Validation: Batch 1/2500
+Epoch 3, Validation: Batch 1001/2500
+Epoch 3, Validation: Batch 2001/2500
+Epoch 3, Validation: Batch 2500/2500
+Validation Loss for Epoch 3: 0.21785180162191392
+Epoch 4/8
+Epoch 4, Training: Batch 1/10000
+Epoch 4, Training: Batch 1001/10000
+Epoch 4, Training: Batch 2001/10000
+Epoch 4, Training: Batch 3001/10000
+Epoch 4, Training: Batch 4001/10000
+Epoch 4, Training: Batch 5001/10000
+Epoch 4, Training: Batch 6001/10000
+Epoch 4, Training: Batch 7001/10000
+Epoch 4, Training: Batch 8001/10000
+Epoch 4, Training: Batch 9001/10000
+Epoch 4, Training: Batch 10000/10000
+Training Loss for Epoch 4: 0.23955843202732505
+Validating for Epoch 4
+Epoch 4, Validation: Batch 1/2500
+Epoch 4, Validation: Batch 1001/2500
+Epoch 4, Validation: Batch 2001/2500
+Epoch 4, Validation: Batch 2500/2500
+Validation Loss for Epoch 4: 0.19632542272657155
+Epoch 5/8
+Epoch 5, Training: Batch 1/10000
+Epoch 5, Training: Batch 1001/10000
+Epoch 5, Training: Batch 2001/10000
+Epoch 5, Training: Batch 3001/10000
+Epoch 5, Training: Batch 4001/10000
+Epoch 5, Training: Batch 5001/10000
+Epoch 5, Training: Batch 6001/10000
+Epoch 5, Training: Batch 7001/10000
+Epoch 5, Training: Batch 8001/10000
+Epoch 5, Training: Batch 9001/10000
+Epoch 5, Training: Batch 10000/10000
+Training Loss for Epoch 5: 0.21827937202882022
+Validating for Epoch 5
+Epoch 5, Validation: Batch 1/2500
+Epoch 5, Validation: Batch 1001/2500
+Epoch 5, Validation: Batch 2001/2500
+Epoch 5, Validation: Batch 2500/2500
+Validation Loss for Epoch 5: 0.18077143782675267
+Epoch 6/8
+Epoch 6, Training: Batch 1/10000
+Epoch 6, Training: Batch 1001/10000
+Epoch 6, Training: Batch 2001/10000
+Epoch 6, Training: Batch 3001/10000
+Epoch 6, Training: Batch 4001/10000
+Epoch 6, Training: Batch 5001/10000
+Epoch 6, Training: Batch 6001/10000
+Epoch 6, Training: Batch 7001/10000
+Epoch 6, Training: Batch 8001/10000
+Epoch 6, Training: Batch 9001/10000
+Epoch 6, Training: Batch 10000/10000
+Training Loss for Epoch 6: 0.20256642983444034
+Validating for Epoch 6
+Epoch 6, Validation: Batch 1/2500
+Epoch 6, Validation: Batch 1001/2500
+Epoch 6, Validation: Batch 2001/2500
+Epoch 6, Validation: Batch 2500/2500
+Validation Loss for Epoch 6: 0.17029927724897861
+Epoch 7/8
+Epoch 7, Training: Batch 1/10000
+Epoch 7, Training: Batch 1001/10000
+Epoch 7, Training: Batch 2001/10000
+Epoch 7, Training: Batch 3001/10000
+Epoch 7, Training: Batch 4001/10000
+Epoch 7, Training: Batch 5001/10000
+Epoch 7, Training: Batch 6001/10000
+Epoch 7, Training: Batch 7001/10000
+Epoch 7, Training: Batch 8001/10000
+Epoch 7, Training: Batch 9001/10000
+Epoch 7, Training: Batch 10000/10000
+Training Loss for Epoch 7: 0.19034641047865153
+Validating for Epoch 7
+Epoch 7, Validation: Batch 1/2500
+Epoch 7, Validation: Batch 1001/2500
+Epoch 7, Validation: Batch 2001/2500
+Epoch 7, Validation: Batch 2500/2500
+Validation Loss for Epoch 7: 0.16156537357792258
+Epoch 8/8
+Epoch 8, Training: Batch 1/10000
+Epoch 8, Training: Batch 1001/10000
+Epoch 8, Training: Batch 2001/10000
+Epoch 8, Training: Batch 3001/10000
+Epoch 8, Training: Batch 4001/10000
+Epoch 8, Training: Batch 5001/10000
+Epoch 8, Training: Batch 6001/10000
+Epoch 8, Training: Batch 7001/10000
+Epoch 8, Training: Batch 8001/10000
+Epoch 8, Training: Batch 9001/10000
+Epoch 8, Training: Batch 10000/10000
+Training Loss for Epoch 8: 0.1805639919947833
+Validating for Epoch 8
+Epoch 8, Validation: Batch 1/2500
+Epoch 8, Validation: Batch 1001/2500
+Epoch 8, Validation: Batch 2001/2500
+Epoch 8, Validation: Batch 2500/2500
+Validation Loss for Epoch 8: 0.1539213780105114
+Model saved to /kaggle/working/saved_model.pt
+
